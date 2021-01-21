@@ -12,14 +12,11 @@ namespace MyConsoleApp
         double result=Math.Sqrt(a*b);
       Console.WriteLine($"Результат={result}");
 
-double A=1.4;
-double B=-5.5;
-double C=0.6;
+double A=1.4, B=-5.5, C=0.6;
 
-double AC=A-C;
-double BC=-B+C;
-double sum=AC+BC;
+double AC=A-C,BC=-B+C, sum=AC+BC;
  Console.WriteLine($"AC={AC} BC={BC} AC+BC={sum}");
+ 
 
 double x1=-6.20, x2=2.10, y1=5.20, y2=9.80;
 double x3=Math.Pow(x2-x1,2);
